@@ -15,11 +15,11 @@ def save_content_to_file(content, file_path):
         file.write(content)
 
 def main():
-    encrypted_file_path = 'path/to/your/encrypted_file.txt'
+    encrypted_file_path = 'path/to/your/encrypted_file.txt' #aqui deve ser mudado para adicionar o seu arquivo txt com a senha
     
     stored_content = read_content_from_file(encrypted_file_path)
 
-    # Solicita ao usuário para fornecer uma senha para teste
+    # solicitação ao usuário para fornecer uma senha para teste
     user_password = getpass.getpass("Digite a senha para teste: ")
     encrypted_user_password = encrypt_content(user_password)
 
