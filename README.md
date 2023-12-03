@@ -17,3 +17,4 @@ python password_checker.py
 python test_branch_1.py
 pytest test_branch_2.py
 ```
+No código "password_checker.py", o diretório do arquivo de texto com a senha deve ser mudado manualmente.
